@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+
+.post-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #12022f;
+}
+
+.published-date {
+  font-family: Roboto;
+  color: #616e7c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.description {
+  font-family: Roboto;
+  color: #616e7c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .published-date {
+    font-size: 20px;
+  }
+}
